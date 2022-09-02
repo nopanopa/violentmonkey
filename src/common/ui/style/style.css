@@ -359,7 +359,7 @@ code,
 .editor-code .CodeMirror,
 .CodeMirror-hints.default /* CSS specificity hack to override default CM style */ {
   /* Use `Courier New` to ensure `&nbsp;` has the same width as an original space. */
-  font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", Courier, monospace;
+  font-family: "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", Courier, monospace;
 }
 
 body .vl-tooltip {
