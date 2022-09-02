@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v2
         continue-on-error: true
         with:
-          name: 'Violentmonkey-test-webext-${{ env.GIT_DESCRIBE }}'
+          name: 'violentmonkey-2.13.0.26-an+fx.xpi'
           path: 'dist/*'
           if-no-files-found: error
 
